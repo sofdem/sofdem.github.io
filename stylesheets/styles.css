@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:500,600);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
-@import url(https://weloveiconfonts.com/api/?family=zocial);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+/* @import url(https://weloveiconfonts.com/api/?family=zocial);
 @import url(https://weloveiconfonts.com/api/?family=typicons);
-@import url(https://weloveiconfonts.com/api/?family=iconicfill);
+@import url(https://weloveiconfonts.com/api/?family=iconicfill); */
 
 /* MeyerWeb Reset */
 
@@ -169,6 +170,12 @@ code, pre {
 	font-family: 'Arvo', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color:#000;
 }
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 12;
+    font-size: 90%
+}
+
 
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
