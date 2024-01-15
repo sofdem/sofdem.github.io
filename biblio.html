@@ -43,18 +43,31 @@
 </ul>
 
 <h2 id="dco">nonsmooth nonconvex optimization</h2><dl>
-  <!-- dt><a href="http://www.optimization-online.org/DB_HTML/2020/02/7603.html" name="coa20">COA 20</a></dt -->
+<dt><a href="https://optimization-online.org/?p=21655" name="pjo24">PJO24</a></dt>
+<dd>
+  <span class="author">Ksenia Syrtseva, Welington de Oliveira, Sophie Demassey, Wim van Ackooij</span>
+  <span class="title"><a href="https://optimization-online.org/?p=21655">Minimizing the difference of convex and weakly convex functions via bundle method</a></span>
+  Pacific Journal of Optimization (2024)  In honor of the 75th Birthday of Professor Masao Fukushima.
+  <span class="abs">We continue our work on solving nonsmooth nonconvex problems with proximal methods, addressing here a still broader class of problems defined by difference of convex and weakly convex functions in the objective and in the constraints. We present a new reformulation, still based on the improvement function, and an original rule to update the proximal parameter which provides stronger convergence results. The performance of the algorithm is illustrated on different stochastic problems.</span>
+</dd>
 <dt><a href="https://rdcu.be/cbe28" name="coa20">COA 20</a></dt>
 <dd>
   <span class="author">Wim van Ackooij, Sophie Demassey, Paul Javal, Hugo Morais, Welington de Oliveira, Bhargav Swaminathan</span>
   <span class="title"><a href="https://rdcu.be/cbe28">A bundle method for nonsmooth DC programming with application to chance-constrained problems</a></span>
   Computational Optimization and Applications (2021) 78: 451-490.
-  <span class="abs">We address nonsmooth nonconvex problems with objective and constraints defined by Difference-of-Convex (aka DC, aka convex-concave) functions. The DC constraints are handled through an improvement function instead of penalization or direct linearization techniques. The resulting convexly-constrained DC program is solved with a proximal bundle method, leading to a critical point of the original DC-constrained program and even a B-stationary point under some additional regularity properties. We also propose a reformulation of probabilistic constraints as DC constraints and assess the method on several classes of deterministic and chance-constrained optimization problems.</span> 
+  <span class="abs">We address nonsmooth nonconvex problems with objective and constraints defined by Difference-of-Convex (aka DC, aka convex-concave) functions. The DC constraints are handled through an improvement function instead of penalization or linearization. The resulting convexly-constrained DC program is solved with a proximal bundle method, leading to a critical point of the original DC-constrained program and even a B-stationary point under some additional regularity properties. We also propose a reformulation of probabilistic constraints as DC constraints and assess the method on several classes of deterministic and chance-constrained optimization problems.</span> 
 </dd>
 </dl>  
 
 <h2 id="dr">scheduling and planning in power systems</h2><dl>
 
+<dt><a href="https://www.sciencedirect.com/science/article/pii/S2352467723001765" name="segan23">SEGAN23</a></dt>
+<dd>
+  <span class="author">Ksenia Syrtseva, Welington de Oliveira, Sophie Demassey, Hugo Morais, Paul Javal, Bhargav Swaminathan</span>
+  <span class="title"><a href="https://www.sciencedirect.com/science/article/pii/S2352467723001765">Difference-of-Convex Approach to Chance-Constrained Optimal Power Flow modelling the DSO Power Modulation Lever for Distribution Networks</a></span>
+  Sustainable Energy, Grids and Networks 36 (2023) article 101168
+  <span class="abs">We address the joint chance-constrained variant of a nonconvex OPF issuing from the operational planning of a distribution network, to take into account the correlation between the generation and load profiles. We model this stochastic problem accurately as a DC program by approximating only the characteristic function that appears in the expected value operator, but not the load flow equations, then solve it with the proximal bundle algorithm of <a href="coa20">[COA20]</a>. The approach yields a natural and embarrassingly parallelizable scenario decomposition.</span>
+</dd>
 <dt><a name="roadef20b">ROADEF 20</a></dt>
 <dd>
   <span class="author">Arnold N'Goran, Sophie Demassey</span>
@@ -125,6 +138,54 @@
 </dl>
 
 <h2 id="water">MINLP for water distribution systems</h2><dl>
+
+  <dt><a href="https://cloud.minesparis.psl.eu/index.php/s/y55q0zDX6Tzjvof" name="amir23">Amir 23</a></dt>
+<dd>
+  <span class="author">Amirhossein Tavakoli</span>
+  <span class="title"><a href="https://cloud.minesparis.psl.eu/index.php/s/y55q0zDX6Tzjvof" name="amir23">Combinatorial Optimization and deep learning for energy-efficient water distribution networks</a></span>
+ PhD thesis directed with Valentina Sessa and defended 20/12/2023, Sophia-Antipolis.
+</dd>
+
+  <dt><a href="art/as23demassey.pdf" name="pmnl23">ETSAP 23</a></dt>
+<dd>
+  <span class="author">Sophie Demassey</span>
+  <span class="title">Combinatorial Optimization for Water Management</span>
+ Joint autumn School 2023 of IEA-ETSAP and the Transition Institute 1.5, Sophia-Antipolis, nov 2023.
+  <span class="abs">Very short introduction to combinatorial optimization and overview of applications in water management. See the <a href="art/as23demassey.pdf">slides</a></span>.
+</dd>
+
+  <dt><a href="art/2310-demassey-nets.pdf" name="nets23">OR 23</a></dt>
+<dd>
+  <span class="author">Sophie Demassey</span>
+  <span class="title">Monotropic bilevel programming: duality in hydraulic network optimization</span>
+  Seminar on Water Network Optimization by the working group on network optimization OR of the CNRS research network on Operational Research GdR RO, Paris 20/10/2023.
+  <span class="abs">Slightly augmented version of <a href="pmnl23">PMNL 23</a> with a focus on the water network optimization problems.</span> See the <a href="art/2310-demassey-nets.pdf">slides</a>.
+</dd>
+
+  <dt><a href="art/demassey23pmnl.pdf" name="pmnl23">PMNL 23</a></dt>
+<dd>
+  <span class="author">Sophie Demassey</span>
+  <span class="title">Strong duality reformulation for bilevel optimization over nonlinear flow networks</span>
+  Day of the working group on nonlinear programming PMNL of the CNRS research network on Operational Research GdR RO, Paris 23/06/2023.
+  <span class="abs">Discussion on the formulation of certain nonconvex MINLPs as bilevel programs with integer variables at the upper level and monotropic programs at the lower level, and how to exploit the duality property of monotropic programming for solving the resulting nonconvex MINLP. We illustrate different options on two water network optimization problems: the convex MINLP reformulation of the pipe sizing problem, generation of valid inequalities and an alternating decomposition method for the pump scheduling problem.</span> See the <a href="art/demassey23pmnl.pdf">slides</a>. Preliminary results presented at <span class="conf">Roadef 23, PGMO 21</span>.
+</dd>
+
+  <dt><a href="https://hal.science/hal-03934746v1/file/Demassey_253_strengthening%20mathematical%20model%20for%20pump%20scheduling%20in%20water%20distribution.pdf" name="icae22">ICAE 22</a></dt>
+<dd>
+  <span class="author">Amirhossein Tavakoli, Valentina Sessa, Sophie Demassey</span>
+  <span class="title"><a href="https://hal.science/hal-03934746v1/file/Demassey_253_strengthening%20mathematical%20model%20for%20pump%20scheduling%20in%20water%20distribution.pdf">Strengthening mathematical models for pump scheduling in water distribution</a></span>
+  14th International Conference on Applied Energy (<span class="conf">ICAE'22</span>), Bochum, Germany.
+  <span class="abs">Intensive OBBT (optimization-based bound tightening) preprocessing for the nonconvex MINLP model of the pump scheduling problem to speed up the algorithm proposed in <a href="oe20">OE 20</a>. The variable bounds are computed on suited relaxations exploiting the temporal decomposition of the model. We also employ probing and disjunctive programming techniques to derive conditional bounds relating different elements of the water network, as well as mixed integer rounding techniques to lift valid inequalities for integer compound variables</span>. Also presented by Amir at <span class="conf">Roadef 23, Sophia Summit 23</span>.
+</dd>
+
+  <dt><a href="art/demassey21minlp.pdf" name="minlp21">MINLP 21</a></dt>
+<dd>
+  <span class="author">Sophie Demassey</span>
+  <span class="title">Enhanced branch and check for pump scheduling in water networks</span>
+  Workshop on Mixed Integer NonLinear Programming (<span class="conf">MINLP'21</span>), online.
+  <span class="abs">Discussion on the implementation of branch-and-check algorithm for MINLP on top of MILP solvers, and generation of valid inequalities based on a strong duality reformulation of the pump scheduling problem.</span>
+  See the <a href="https://www.youtube.com/watch?v=7g17tYSSlMw">talk</a> online and the <a href="art/demassey21minlp.pdf">slides</a>.
+</dd>
 
   <!-- dt><a href="http://www.optimization-online.org/DB_HTML/2020/02/7621.html" name="lpnlp">OO 19</a></dt -->
 <dt><a href="art/bonvin20opteng.pdf" name="oe20">OE 20</a></dt>
