@@ -201,6 +201,10 @@ pre {
   font-size: larger;
 }
 
+pre.center {
+    text-align: center;
+}
+
 div.new {
     background: #e0ebeb;
 
