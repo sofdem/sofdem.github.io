@@ -104,6 +104,10 @@ em {
   font-style: normal;
 }
 
+i {
+    font-style: oblique 50deg;
+}
+
 strong {
   font-weight:700;
 }
