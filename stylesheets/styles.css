@@ -105,7 +105,8 @@ em {
 }
 
 i {
-    font-style: oblique 50deg;
+    font-style: oblique 25deg;
+    font-size: smaller;
 }
 
 strong {
